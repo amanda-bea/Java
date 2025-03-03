@@ -1,69 +1,89 @@
-## Estudos
+# 📚 Estudos
 
+## 🚀 Sequência de problemas de lógica de programação resolvidos em Java
 
-Sequência de problemas de lógica de programação que resolvi com Java.
-Exercícos:
+### 📌 Exercícios
 
+1. **Cálculo de Salários Mínimos**
+   - Leia o valor do salário mínimo e o salário de um usuário.
+   - Calcule quantos salários mínimos o usuário recebe.
+   - Considere o salário mínimo como R$ 1.293,20.
 
-1 - Faça um algoritmo que leia o valor do salário mínimo e o valor do salário de um usuário, calcule quantos salários mínimos esse usuário ganha e imprima na tela o resultado. (Base para o Salário mínimo R$ 1.293,20).
+2. **Reajuste de Valor**
+   - Leia um valor qualquer e aplique um reajuste de 5%.
 
-2 - Faça um algoritmo que leia um valor qualquer e imprima na tela com um reajuste de 5%.
+3. **Valores Booleanos**
+   - Leia dois valores lógicos e determine se ambos são VERDADEIRO ou FALSO.
 
-3 - Faça um algoritmo que leia dois valores booleanos (lógicos) e determine se ambos são VERDADEIRO ou FALSO.
+4. **Ordenação de Valores**
+   - Leia três valores inteiros diferentes e exiba-os em ordem decrescente.
 
-4 - Faça um algoritmo que leia três valores inteiros diferentes e imprima na tela os valores em ordem decrescente.
+5. **Cálculo do IMC**
+   - Leia peso e altura e calcule o IMC.
+   - Exiba a classificação conforme a tabela abaixo:
 
-5 - Faça um algoritmo que calcule o IMC (Índice de Massa Corporal) de uma pessoa, leia o seu peso e sua altura e imprima na tela sua condição de acordo com a tabela abaixo:
+   | IMC              | Classificação |
+   |------------------|------------------|
+   | Abaixo de 18,5  | Abaixo do peso |
+   | 18,6 - 24,9     | Peso ideal (Parabéns) |
+   | 25,0 - 29,9     | Levemente acima do peso |
+   | 30,0 - 34,9     | Obesidade Grau I |
+   | 35,0 - 39,9     | Obesidade Grau II (severa) |
+   | ≥ 40          | Obesidade Grau III (mórbida) |
 
-Fórmula do IMC = peso / (altura) ²
+6. **Média de Notas (3 notas)**
+   - Leia três notas e calcule a média.
 
-Tabela Condições IMC
+7. **Média de Notas (4 notas)**
+   - Leia quatro notas e calcule a média.
+   - Exiba o nome do aluno e informe se foi aprovado (média ≥ 7) ou reprovado.
 
- Abaixo de 18,5   | Abaixo do peso          
+8. **Cálculo de Valor com Forma de Pagamento**
+   - Leia o valor do produto e a forma de pagamento.
+   - Aplique os descontos ou acréscimos conforme a tabela:
 
- Entre 18,6 e 24,9 | Peso ideal (parabéns)  
+   | Código | Forma de Pagamento | Desconto/Juros |
+   |--------|--------------------|----------------|
+   | 1      | À vista (Dinheiro/Pix) | 15% de desconto |
+   | 2      | À vista (Cartão de crédito) | 10% de desconto |
+   | 3      | Parcelado (2x) | Sem juros |
+   | 4      | Parcelado (3x ou mais) | +10% de juros |
 
- Entre 25,0 e 29,9 | Levemente acima do peso
+9. **Verificação de Maioridade**
+   - Leia nome e idade e informe se é maior ou menor de idade.
 
- Entre 30,0 e 34,9 | Obesidade grau I 
+10. **Troca de Valores**
+   - Leia dois valores A e B.
+   - Troque os valores e exiba-os.
 
- Entre 35,0 e 39,9 | Obesidade grau II (severa)
+11. **Cálculo da Idade em Anos, Meses e Dias**
+   - Leia o ano de nascimento e exiba a idade em anos, meses e dias (considerando 365 dias por ano e 30 dias por mês).
 
- Maior ou igual a 40 | Obesidade grau III (mórbida)
+12. **Verificação de Triângulo**
+   - Leia três lados de um triângulo e determine se é equilátero, isósceles ou escaleno.
 
+13. **Conversão de Temperatura**
+   - Leia uma temperatura em Fahrenheit e converta para Celsius.
+   - Fórmula: `C = (5 * (F - 32) / 9)`
 
-6 - Faça um algoritmo que leia três notas obtidas por um aluno, e imprima na tela a média das notas.
+14. **Crescimento de Altura**
+   - Francisco tem 1,50m e cresce 2 cm/ano.
+   - Sara tem 1,10m e cresce 3 cm/ano.
+   - Calcule quantos anos levará para Sara ultrapassar Francisco.
 
-7 - Faça um algoritmo que leia quatro notas obtidas por um aluno, calcule a média das nota obtidas, imprima na tela o nome do aluno e se o aluno foi aprovado ou reprovado. Para o aluno ser considerado aprovado sua média final deve ser maior ou igual a 7.
+15. **Tabuada de 1 a 10**
+   - Exiba a tabuada do 1 ao 10.
 
-8 - Faça um algoritmo que leia o valor de um produto e determine o valor que deve ser pago, conforme a escolha da forma de pagamento pelo comprador e imprima na tela o valor final do produto a ser pago. Utilize os códigos da tabela de condições de pagamento para efetuar o cálculo adequado.
-  Tabela de Código de Condições de Pagamento
+16. **Tabuada de um Número Específico**
+   - Leia um valor inteiro e exiba sua tabuada.
 
-  1 - À Vista em Dinheiro ou Pix, recebe 15% de desconto
+17. **Número Aleatório**
+   - Gere e exiba um número aleatório entre 0 e 100.
 
-  2 - À Vista no cartão de crédito, recebe 10% de desconto
+18. **Cálculo do Salário Líquido**
+   - Leia o valor da hora/aula, horas lecionadas e o desconto do INSS.
+   - Calcule o salário líquido final do professor.
 
-  3 - Parcelado no cartão em duas vezes, preço normal do produto sem juros
+---
+📌 _Este repositório contém soluções implementadas em Java para fortalecer o aprendizado em lógica de programação._ 🚀
 
-  4 - Parcelado no cartão em três vezes ou mais, preço normal do produto mais juros de 10%
-
-
-9 - Faça algoritmo que leia o nome e a idade de uma peso e imprima na tela o nome da pessoa e se ela é maior ou menor de idade. 
-
-10 - Faça um algoritmo que receba um valor A e B, e troque o valor de A por B e o valor de B por A e imprima na tela os valores.
-
-11 - Faça um algoritmo que leia o ano em que uma pessoa nasceu, imprima na tela quantos anos, meses e dias essa pessoa ja viveu. Leve em consideração o ano com 365 dias e o mês com 30 dias. (Ex: 5 anos, 2 meses e 15 dias de vida)
-
-12 - Faça um algoritmo que leia três valores que representam os três lados de um triângulo e verifique se são válidos, determine se o triângulo é equilátero, isósceles ou escaleno.
-
-13 - Faça um algoritmo que leia uma temperatura em Fahrenheit e calcule a temperatura correspondente em grau Celsius. Imprima na tela as duas temperaturas. Fórmula: C = (5 * ( F-32) / 9)
-
-14 - Francisco tem 1,50m e cresce 2 centímetros por ano, enquanto Sara tem 1,10m e cresce 3 centímetros por ano. Faça um algoritmo que calcule e imprima na tela em quantos anos serão necessários para que Francisco seja maior que Sara.
-
-15 - Faça um algoritmo que imprima na tela a tabuada de 1 até 10.
-
-16 - Faça um algoritmo que receba um valor inteiro e imprima na tela a sua tabuada.
-
-17 - Faça um algoritmo que mostre um valor aleatório entre 0 e 100.
-
-18 - Faça um algoritmo que efetue o cálculo do salário líquido de um professor. As informações fornecidas serão: valor da hora aula, horas de aulas lecionadas no mês e percentual de desconto do INSS. Imprima na tela o salário líquido final.
