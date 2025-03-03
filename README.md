@@ -2,7 +2,7 @@
 
 ## 🚀 Sequência de problemas de lógica de programação resolvidos em Java
 
-### 📌 Exercícios
+### 📌 Exercícios [aqui](./Exercícios/src/exs/)
 
 1. **Cálculo de Salários Mínimos**
    - Leia o valor do salário mínimo e o salário de um usuário.
