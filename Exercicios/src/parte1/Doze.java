@@ -1,4 +1,4 @@
-package exs;
+package parte1;
 
 import java.util.Scanner;
 
